@@ -9,9 +9,4 @@ export default defineConfig({
         }),
     ],
     base: "",
-    root: "",
-    build: {
-        outDir: "./dist",
-        emptyOutDir: true, // also necessary
-    },
 });
