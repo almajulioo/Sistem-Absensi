@@ -8,5 +8,10 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    base: "https://sistem-absensi-desa-baturaja-production.up.railway.app/",
+    base: "",
+    root: "",
+    build: {
+        outDir: "./dist",
+        emptyOutDir: true, // also necessary
+    },
 });
